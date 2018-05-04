@@ -14,5 +14,8 @@
     "mocha": "^3.4.2"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pryjs": "^1.0.3"
+  }
 }
