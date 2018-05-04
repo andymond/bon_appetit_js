@@ -5,6 +5,6 @@ describe("Pantry", () => {
   const pantry = new Pantry()
 
   it("has a stock", () => {
-    expect(pantry.stock).to.eq({})
+    expect(pantry.stock).to.deep.equal({})
   })
 })
