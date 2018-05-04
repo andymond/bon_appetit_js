@@ -11,4 +11,8 @@ describe("Pantry", () => {
   it("can check stock for an item", () => {
     expect(pantry.stockCheck("Cheese")).to.equal(0)
   })
+
+  it("can restock", () => {
+    expect(pantry.restock("Cheese", 10)).to.deep.equal({"Cheese": 10})
+  }
 })
